@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Open Sans';
+}
+
+button{
+    padding : 1rem 3rem;
+    margin: 2rem 5rem;
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    border-radius: 5rem;
+    transition: all 300ms ease-in-out;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:hover{
+    border: 5px solid skyblue;
+    transform: scale(0.9);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div input{
+    margin : 20px 10px;
+}
+
+#color{
+    border-radius: 1000px;
+    border: none;
+}
+
+.radio-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style-type: square;
+    margin: 20px;
+}
+
+ul{
+    display: flex;
+    margin: 2px 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
